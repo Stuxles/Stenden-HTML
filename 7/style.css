@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url("bg.jpg");
+	background-size: 1920px 1080px;
+}
+
+h1 {
+	color:lightgrey;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+h2 {
+	color:orange;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+h3 {
+	color:grey;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.main{
+	width: 1000px;
+	height:	780px;
+	margin: auto;
+	background-color: green;
+}
+
+.logo{
+	width: 110px;
+	height: 110px;
+	float: left;
+	padding: 20px;
+	background-color: grey;
+}
+
+.topbar{
+	width: 810px;
+	height: 110px;
+	float: left;
+	padding: 20px;
+	background-color: grey;
+}
+
+.menu{
+	width: 110px;
+	height: 670px;
+	padding: 20px;
+	float: left;
+	background-color: lightgrey;
+}
+.content{
+	width: 810px;
+	height: 670px;
+	padding: 20px;
+	float: left;
+	background-color: lightgrey;
+}
+
+.footer{
+	width: 1000px;
+	height: 20px;
+	float: left;
+	background-color: grey;
+}
+.leftfoot{
+	width: 500;
+	height: 20px;
+	float: left;
+	padding-left: 10px;
+}
+
+.rightfoot{
+	width: 500;
+	height: 20px;
+	float: right;
+	padding-right: 10px;
+}
+
+.middle {
+	width: 600px;
+	height: 400px;
+}
+
+.Links {
+	bottom: 0px;
+	position: absolute;
+}
+
+.museum {
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding-right: 30px;
+	padding-top: 30px;
+	position: relative;
+}
+
+table, th, td {
+    border: 1px solid black;
+	padding: 5px;
+	font-family: verdana;
+	color:grey;
+}
+
+th:nth-child(odd){
+	background-color: orange;
+}
+
+td:nth-child(even){
+	background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+	color:grey;
+}

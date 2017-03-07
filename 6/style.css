@@ -1,0 +1,47 @@
+h1 {
+	color:red;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+h2 {
+	color:grey;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+h3 {
+	color:grey;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.middle {
+	width: 600px;
+	height: 400px;
+}
+
+.Links {
+	bottom: 0px;
+	position: absolute;
+}
+
+.museum {
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	position: relative;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th:nth-child(odd){
+	background-color: yellow;
+}
+
+tr:nth-child(even){
+	background-color: lightgrey;
+}
