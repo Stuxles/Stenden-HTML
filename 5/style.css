@@ -21,9 +21,9 @@ h3 {
 	height: 400px;
 }
 
-.Links {
-	bottom: 0px;
-	position: absolute;
+.Plaatje {
+	width: 100px;
+	height: 130px;
 }
 
 .museum {
@@ -31,5 +31,4 @@ h3 {
 	height: 150px;
 	width: 150px;
 	padding: 10px;
-	position: relative;
 }

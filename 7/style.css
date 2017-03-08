@@ -89,10 +89,9 @@ h3 {
 	height: 400px;
 }
 
-.Links {
-	bottom: 0px;
-	position: absolute;
-	padding-bottom: 10px;
+.Plaatje {
+	width: 100px;
+	height: 130px;
 }
 
 .museum {
@@ -101,7 +100,10 @@ h3 {
 	width: 150px;
 	padding-right: 50px;
 	padding-top: 30px;
-	position: relative;
+}
+
+hr {
+	width: 800px;
 }
 
 table, th, td {
