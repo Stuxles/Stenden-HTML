@@ -5,18 +5,17 @@
 
 body {
     background-image: url("bg.jpg");
-	background-size: 1920px 1080px;
+	background-size: cover;
+	font-family: verdana , arial, sans-serif;
 }
 
 h1 {
 	color:lightgrey;
-	font-family: verdana;
 	font-weight: bold;
 }
 
 h2 {
 	color:orange;
-	font-family: verdana;
 	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -24,7 +23,6 @@ h2 {
 
 h3 {
 	color:grey;
-	font-family: verdana;
 	font-weight: bold;
 }
 
@@ -71,11 +69,13 @@ h3 {
 	height: 20px;
 	float: left;
 	background-color: grey;
+	color: white;
 }
 .leftfoot{
 	height: 20px;
 	float: left;
 	padding-left: 10px;
+	
 }
 
 .rightfoot{
@@ -85,7 +85,7 @@ h3 {
 }
 
 .middle {
-	width: 600px;
+	width: 690px;
 	height: 400px;
 }
 
@@ -97,9 +97,10 @@ h3 {
 .museum {
 	float: left;
 	height: 150px;
-	width: 150px;
+	width: 180px;
 	padding-right: 50px;
 	padding-top: 30px;
+	margin-bottom: 20px;
 }
 
 hr {
@@ -122,9 +123,13 @@ td:nth-child(even){
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 a{
 	color:grey;
+}
+
+p{
+	text-align: justify;
 }
